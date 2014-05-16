@@ -9,15 +9,20 @@ function installcask() {
 # installcask dropbox
 installcask google-chrome
 installcask google-chrome-canary
+installcask google-hangouts
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-# installcask macvim
-# installcask miro-video-converter
-# installcask sublime-text
-# installcask the-unarchiver
-# installcask tor-browser
+installcask sublime-text
 installcask transmission
-# installcask ukelele
 installcask virtualbox
-# installcask vlc
+installcask mou
+installcask alfred
+installcask copy
+installcask gas-mask
+installcask github
+installcask gitx-l
+installcask quicklook-json
+installcask skitch
+installcask spectacle
+installcask steam
