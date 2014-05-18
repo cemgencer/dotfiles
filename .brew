@@ -36,7 +36,7 @@ brew install php55
 brew install ack
 #brew install exiv2
 brew install git
-#brew install imagemagick
+brew install imagemagick
 brew install lynx
 brew install node
 brew install pigz
@@ -47,6 +47,9 @@ brew install webkit2png
 brew install zopfli
 brew install byobu
 brew install bash-completion
+brew install autojump
+
+brew install ngrep # required for sniff alias
 
 brew tap homebrew/versions
 brew install lua52
