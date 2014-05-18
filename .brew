@@ -8,7 +8,6 @@ brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
-echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
 # Install Bash 4
@@ -56,3 +55,7 @@ brew install lua52
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+echo "Don't forget to edit /etc/paths to add the following paths to the TOP of the list"
+echo "$(brew --prefix)/bin"
+echo "$(brew --prefix coreutils)/libexec/gnubin"
