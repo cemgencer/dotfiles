@@ -47,6 +47,10 @@ brew install zopfli
 brew install byobu
 brew install bash-completion
 brew install autojump
+brew install autossh
+brew install ssh-copy-id
+brew install mobile-shell
+brew install reattach-to-user-namespace
 
 brew install ngrep # required for sniff alias
 
