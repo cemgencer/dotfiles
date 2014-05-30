@@ -54,6 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{path,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
@@ -61,17 +62,6 @@ unset file
 
 # export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-	# export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-export EDITOR='nano'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
