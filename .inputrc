@@ -39,3 +39,4 @@ bindkey "\e[3;3~": kill-word
 
 # make Ctrl+U delete from cursor to the beginning of the line
 bindkey \^U backward-kill-line
+bindkey \^Y yank
