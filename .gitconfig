@@ -31,6 +31,9 @@
 	whitespace = fix
 
 [core]
+  # (-X) don't clear screen after exit
+  # (-F) don't page if output fits on screen
+  pager = "less -XF"
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes

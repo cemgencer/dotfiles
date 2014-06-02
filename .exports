@@ -19,8 +19,9 @@ export LC_ALL="en_US.UTF-8"
 # Highlight section titles in manual pages
 export LESS_TERMCAP_md="$ORANGE"
 
-# Don’t clear the screen after quitting a manual page
-export MANPAGER="less -X"
+# -X Don’t clear the screen after quitting a manual page
+# -F Don't page if output would fit on screen
+export MANPAGER="less -XF"
 
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto"
