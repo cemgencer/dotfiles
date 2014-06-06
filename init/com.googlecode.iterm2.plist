@@ -294,7 +294,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSFontPanelAttributes</key>
-	<string>1, 4</string>
+	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Projects/dotfiles/init</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -304,9 +304,9 @@
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
 	<key>NSWindow Frame Preferences</key>
-	<string>258 213 924 485 0 0 1440 878 </string>
+	<string>178 142 924 485 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1440 426 0 0 1440 878 </string>
+	<string>0 4 1280 404 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1593,7 +1593,7 @@
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Solarized-2</string>
+			<string>Solarized</string>
 			<key>Non Ascii Font</key>
 			<string>SourceCodePro-Light 12</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -1601,11 +1601,11 @@
 			<key>Normal Font</key>
 			<string>SourceCodePro-Light 12</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
@@ -1842,7 +1842,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-05-28T21:25:55Z</date>
+	<date>2014-06-06T02:28:14Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
