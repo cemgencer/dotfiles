@@ -51,6 +51,7 @@ brew install autossh
 brew install ssh-copy-id
 brew install mobile-shell
 brew install reattach-to-user-namespace
+brew install hub
 
 brew install ngrep # required for sniff alias
 
