@@ -1177,11 +1177,11 @@
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.15170273184776306</real>
+				<real>0.29443579912185669</real>
 				<key>Green Component</key>
-				<real>0.11783610284328461</real>
+				<real>0.23714621365070343</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<real>0.10341258347034454</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -1842,7 +1842,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-06-06T02:28:14Z</date>
+	<date>2014-06-09T05:26:35Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
