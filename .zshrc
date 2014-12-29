@@ -53,6 +53,8 @@ plugins=(git brew bower npm autojump history-substring-search)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+#zstyle ':completion:*:approximate:*' max-errors 3
+#zstyle ':completion:*::::' completer _expand _complete _ignored _approximate
 
 # * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{path,inputrc,exports,aliases,functions,extra}; do

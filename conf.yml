@@ -1,0 +1,16 @@
+commands:
+-
+  description: This will run a quick test.
+  prompt: This is a test, proceed? (yN)
+  pattern: /[yn]/i
+  default: n
+  accept: /y/i
+  command: echo Hello world!
+
+-
+  description: Runs another test.
+  prompt: This is another test (ok)
+  pattern: /ok/
+  default: n
+  accept: ok
+  command: echo Goodbye, cruel world!
