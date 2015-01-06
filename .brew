@@ -55,6 +55,8 @@ brew install hub
 
 brew install ngrep # required for sniff alias
 
+brew install caskroom/cask/brew-cask
+
 brew tap homebrew/versions
 brew install lua52
 
